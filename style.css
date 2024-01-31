@@ -9,8 +9,10 @@ body, html {
 .intro {
     text-align: center;
     padding: 20px;
-    margin: 0 auto 30px;
-    max-width: 50%; /* Limiting width to 50% */
+    margin-bottom: 30px;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container {
@@ -19,6 +21,11 @@ body, html {
     align-items: center;
     justify-content: center;
     height: calc(100% - 60px);
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
 }
 
 .card {
