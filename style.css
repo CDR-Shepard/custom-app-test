@@ -6,6 +6,10 @@ body, html {
     color: #333;
 }
 
+button[disabled] {
+  cursor: not-allowed; /* Shows a 'not-allowed' cursor on hover to indicate it is disabled */
+}
+
 .intro {
     text-align: center;
     padding: 20px;
